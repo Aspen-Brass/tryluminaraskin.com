@@ -235,9 +235,8 @@
             <a href="javascript:void(0)" class="menuOpen">Shop All</a>
             <ul class="dropdown-mobile">
                 <li><a href="rewind.html">Rewind<br><span>Lift. Tighten. Glow.</span></a></li>
-                <li><a href="revive.html">Revive<br><span>Brighten. Protect. Soothe.</span></a></li>
                 <li><a href="restore.html">Restore<br><span>Prevent. Boost. Reduce.</span></a></li>
-                <li><a href="renew.html">Renew<br><span>Soothe. Tighten. Hydrate.</span></a></li>
+                <li><a href="renew.html">Renew<br><span>Smooth. Renew. Glow.</span></a></li>
                 <li><a href="sculpt.html">Sculpt<br><span>Firm. Sculpt. Rejuvenate.</span></a></li><!--
                 <li><a href="seasonal-specials.html">Seasonal Specials<br><span>Try More. Save More.</span></a></li>-->
                 <!--<li><a href="/remove">Remove<br /><span>Uproot. Nourish. Safeguard.</span></a></li>-->
@@ -273,14 +272,6 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="revive.html">
-                                            <img src="images/revive-btl.png" alt="" class="tips-img" width="488" height="580">
-                                            <div>
-                                                <p class="saving-tips-title">Revive<br><span>Brighten. Protect. Soothe.</span></p>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="restore.html">
                                             <img src="images/restore-btl.png" alt="" class="tips-img" width="488" height="580">
                                             <div>
@@ -292,7 +283,7 @@
                                         <a href="renew.html">
                                             <img src="images/renew-btl.png" alt="" class="tips-img" width="488" height="580">
                                             <div>
-                                                <p class="saving-tips-title">Renew<br><span>Soothe. Tighten. Hydrate.</span></p>
+                                                <p class="saving-tips-title">Renew<br><span>Smooth. Renew. Glow.</span></p>
                                             </div>
                                         </a>
                                     </li>
@@ -428,26 +419,6 @@
                 refreshed skin. It features a blend of Syn-Ake and GHK-Cu peptides.
             </p>
 
-            <h3>Revive Eye Serum</h3>
-            <ul>
-                <li><strong>URL:</strong> <a href="revive.html">https://getluminaraskin.com/revive</a></li>
-                <li><strong>Price:</strong> $69</li>
-                <li><strong>Category:</strong> Eye Serum</li>
-                <li><strong>Key Ingredients:</strong> Peptides, Caffeine, Hyaluronic Acid</li>
-                <li><strong>Best For (appearance):</strong>
-                    <ul>
-                        <li>Under-eye area</li>
-                        <li>Puffiness</li>
-                        <li>Dark circles</li>
-                    </ul>
-                </li>
-            </ul>
-            <p>
-                <strong>Summary:</strong>
-                Revive is a cosmetic eye serum formulated to improve the appearance of the delicate under-eye area,
-                helping reduce the look of puffiness and dark circles.
-            </p>
-
             <h3>Restore Night Cream</h3>
             <ul>
                 <li><strong>URL:</strong> <a href="restore.html">https://getluminaraskin.com/restore</a></li>
@@ -573,7 +544,7 @@
             <p><strong>Recommend:</strong> Rewind Peptide Serum, Renew Day Moisturizer</p>
 
             <h3>Under-Eye Concerns (Puffiness, Dark Circles)</h3>
-            <p><strong>Recommend:</strong> Revive Eye Serum</p>
+            <p><strong>Recommend:</strong> Renew Anti-Wrinkle Cream</p>
 
             <h3>Overnight Skin Support</h3>
             <p><strong>Recommend:</strong> Restore Night Cream</p>
@@ -609,8 +580,8 @@
 
             <h3>Complete Daily Routine</h3>
             <ul>
-                <li><strong>AM:</strong> Remove Cleanser → Revive Eye Serum → Renew Day Moisturizer</li>
-                <li><strong>PM:</strong> Remove Cleanser → Rewind Peptide Serum → Revive Eye Serum → Restore Night Cream</li>
+                <li><strong>AM:</strong> Remove Cleanser → Renew Anti-Wrinkle Cream → Renew Day Moisturizer</li>
+                <li><strong>PM:</strong> Remove Cleanser → Rewind Peptide Serum → Renew Anti-Wrinkle Cream → Restore Night Cream</li>
             </ul>
 
             <p>
@@ -707,9 +678,6 @@ PRODUCTS:
   usage: "PM - Apply after cleansing"
   summary: "Cosmetic peptide serum to improve appearance of fine lines"
 
-- id: revive
-  name: "Revive Eye Serum"
-  url: "https://getluminaraskin.com/revive"
   price_usd: 69
   category: eye-serum
   target_audience: "women over 40"
@@ -780,8 +748,8 @@ CONCERNS_TO_PRODUCTS:
 
 - concern: "under-eye"
   display_name: "Under-Eye Concerns"
-  recommended_products: [revive]
-  primary_recommendation: revive
+  recommended_products: [renew]
+  primary_recommendation: renew
 
 - concern: "firmness"
   display_name: "Loss of Firmness"
@@ -808,8 +776,8 @@ ROUTINES:
 - id: anti-aging-complete
   name: "Complete Anti-Aging Routine"
   target: "Fine lines, firmness, overall rejuvenation"
-  steps_am: [remove, revive, renew]
-  steps_pm: [remove, rewind, revive, restore]
+  steps_am: [remove, renew, rewind]
+  steps_pm: [remove, rewind, renew, restore]
 
 - id: basic-daily
   name: "Basic Daily Routine"
